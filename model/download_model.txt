@@ -1,0 +1,27 @@
+PANDUAN UNDUH MODEL (WAJIB DILAKUKAN)
+=====================================
+
+Halo! Karena ukuran file model AI (otak dari aplikasi ini) cukup besar, file tersebut tidak dapat disimpan langsung di GitHub. 
+Oleh karena itu, Anda harus mengunduhnya secara manual agar aplikasi dapat berjalan dengan normal.
+
+Silakan ikuti 3 langkah mudah berikut:
+
+1. BUKA TAUTAN GOOGLE DRIVE INI:
+   https://drive.google.com/drive/folders/14O6ez4NRs9nnozhfF5L-82Wm0szl0npa?usp=drive_link
+
+2. UNDUH KEDUA FILE .pth:
+   Di dalam folder Google Drive tersebut, terdapat dua file yang harus Anda unduh:
+   a. modernbert_baseline_best.pth
+   b. modernbert_sfs_best.pth
+
+3. SIMPAN KE DALAM FOLDER 'model':
+   Setelah selesai diunduh, pindahkan (copy/cut) kedua file tersebut ke dalam folder bernama "model" yang ada di direktori proyek ini (folder tempat file teks ini berada).
+
+   Pastikan struktur akhirnya terlihat seperti ini:
+   📂 analisis_sentimen_amazon/
+      └── 📂 model/
+           ├── 📄 download_model.txt
+           ├── 📄 modernbert_baseline_best.pth  <-- File 1
+           └── 📄 modernbert_sfs_best.pth       <-- File 2
+
+Terima kasih! Setelah file tersimpan, Anda siap menjalankan aplikasi.
